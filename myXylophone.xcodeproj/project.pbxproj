@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81634ACC7D833CBACDE17C69 /* Pods_myXylophone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67521253376FEA1095A8964 /* Pods_myXylophone.framework */; };
+		EB04CA2F29DAFE4C0079C92A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04CA2E29DAFE4C0079C92A /* AppDelegate.swift */; };
+		EB04CA3129DAFE4C0079C92A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04CA3029DAFE4C0079C92A /* SceneDelegate.swift */; };
+		EB04CA3329DAFE4C0079C92A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04CA3229DAFE4C0079C92A /* ViewController.swift */; };
+		EB04CA3629DAFE4C0079C92A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04CA3429DAFE4C0079C92A /* Main.storyboard */; };
+		EB04CA3829DAFE4D0079C92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB04CA3729DAFE4D0079C92A /* Assets.xcassets */; };
+		EB04CA3B29DAFE4D0079C92A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB04CA3929DAFE4D0079C92A /* LaunchScreen.storyboard */; };
+		EBDD0E7029DB389B002B3BBF /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = EBDD0E6929DB389B002B3BBF /* C.wav */; };
+		EBDD0E7129DB389B002B3BBF /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = EBDD0E6A29DB389B002B3BBF /* D.wav */; };
+		EBDD0E7229DB389B002B3BBF /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = EBDD0E6B29DB389B002B3BBF /* A.wav */; };
+		EBDD0E7329DB389B002B3BBF /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = EBDD0E6C29DB389B002B3BBF /* F.wav */; };
+		EBDD0E7429DB389B002B3BBF /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = EBDD0E6D29DB389B002B3BBF /* E.wav */; };
+		EBDD0E7529DB389B002B3BBF /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = EBDD0E6E29DB389B002B3BBF /* B.wav */; };
+		EBDD0E7629DB389B002B3BBF /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = EBDD0E6F29DB389B002B3BBF /* G.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		019DD95ED362FB25CDB37FCE /* Pods-myXylophone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myXylophone.release.xcconfig"; path = "Target Support Files/Pods-myXylophone/Pods-myXylophone.release.xcconfig"; sourceTree = "<group>"; };
+		B8776663C227F568E9990E2C /* Pods-myXylophone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myXylophone.debug.xcconfig"; path = "Target Support Files/Pods-myXylophone/Pods-myXylophone.debug.xcconfig"; sourceTree = "<group>"; };
+		D67521253376FEA1095A8964 /* Pods_myXylophone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myXylophone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB04CA2B29DAFE4C0079C92A /* myXylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myXylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB04CA2E29DAFE4C0079C92A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB04CA3029DAFE4C0079C92A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB04CA3229DAFE4C0079C92A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB04CA3529DAFE4C0079C92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB04CA3729DAFE4D0079C92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB04CA3A29DAFE4D0079C92A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB04CA3C29DAFE4D0079C92A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDD0E6929DB389B002B3BBF /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		EBDD0E6A29DB389B002B3BBF /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		EBDD0E6B29DB389B002B3BBF /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		EBDD0E6C29DB389B002B3BBF /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		EBDD0E6D29DB389B002B3BBF /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		EBDD0E6E29DB389B002B3BBF /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		EBDD0E6F29DB389B002B3BBF /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB04CA2829DAFE4C0079C92A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81634ACC7D833CBACDE17C69 /* Pods_myXylophone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F47AC77AF0B4BCFA82F5DF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D67521253376FEA1095A8964 /* Pods_myXylophone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9A6B7B0C01860F0DC2EEFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8776663C227F568E9990E2C /* Pods-myXylophone.debug.xcconfig */,
+				019DD95ED362FB25CDB37FCE /* Pods-myXylophone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB04CA2229DAFE4C0079C92A = {
+			isa = PBXGroup;
+			children = (
+				EB04CA2D29DAFE4C0079C92A /* myXylophone */,
+				EB04CA2C29DAFE4C0079C92A /* Products */,
+				CF9A6B7B0C01860F0DC2EEFE /* Pods */,
+				0F47AC77AF0B4BCFA82F5DF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB04CA2C29DAFE4C0079C92A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB04CA2B29DAFE4C0079C92A /* myXylophone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB04CA2D29DAFE4C0079C92A /* myXylophone */ = {
+			isa = PBXGroup;
+			children = (
+				EB04CA2E29DAFE4C0079C92A /* AppDelegate.swift */,
+				EB04CA3029DAFE4C0079C92A /* SceneDelegate.swift */,
+				EB04CA3229DAFE4C0079C92A /* ViewController.swift */,
+				EB04CA3429DAFE4C0079C92A /* Main.storyboard */,
+				EB04CA3729DAFE4D0079C92A /* Assets.xcassets */,
+				EB04CA3929DAFE4D0079C92A /* LaunchScreen.storyboard */,
+				EB04CA3C29DAFE4D0079C92A /* Info.plist */,
+				EBDD0E6829DB385F002B3BBF /* Sounds */,
+			);
+			path = myXylophone;
+			sourceTree = "<group>";
+		};
+		EBDD0E6829DB385F002B3BBF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD0E6B29DB389B002B3BBF /* A.wav */,
+				EBDD0E6E29DB389B002B3BBF /* B.wav */,
+				EBDD0E6929DB389B002B3BBF /* C.wav */,
+				EBDD0E6A29DB389B002B3BBF /* D.wav */,
+				EBDD0E6D29DB389B002B3BBF /* E.wav */,
+				EBDD0E6C29DB389B002B3BBF /* F.wav */,
+				EBDD0E6F29DB389B002B3BBF /* G.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB04CA2A29DAFE4C0079C92A /* myXylophone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB04CA3F29DAFE4D0079C92A /* Build configuration list for PBXNativeTarget "myXylophone" */;
+			buildPhases = (
+				3627BEF4D114B35ED94E39FA /* [CP] Check Pods Manifest.lock */,
+				EB04CA2729DAFE4C0079C92A /* Sources */,
+				EB04CA2829DAFE4C0079C92A /* Frameworks */,
+				EB04CA2929DAFE4C0079C92A /* Resources */,
+				B1F387078BEFD5A9F5CC99B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myXylophone;
+			productName = myXylophone;
+			productReference = EB04CA2B29DAFE4C0079C92A /* myXylophone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB04CA2329DAFE4C0079C92A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EB04CA2A29DAFE4C0079C92A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EB04CA2629DAFE4C0079C92A /* Build configuration list for PBXProject "myXylophone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB04CA2229DAFE4C0079C92A;
+			productRefGroup = EB04CA2C29DAFE4C0079C92A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB04CA2A29DAFE4C0079C92A /* myXylophone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB04CA2929DAFE4C0079C92A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDD0E7229DB389B002B3BBF /* A.wav in Resources */,
+				EBDD0E7329DB389B002B3BBF /* F.wav in Resources */,
+				EBDD0E7029DB389B002B3BBF /* C.wav in Resources */,
+				EB04CA3B29DAFE4D0079C92A /* LaunchScreen.storyboard in Resources */,
+				EBDD0E7129DB389B002B3BBF /* D.wav in Resources */,
+				EB04CA3829DAFE4D0079C92A /* Assets.xcassets in Resources */,
+				EBDD0E7629DB389B002B3BBF /* G.wav in Resources */,
+				EBDD0E7529DB389B002B3BBF /* B.wav in Resources */,
+				EBDD0E7429DB389B002B3BBF /* E.wav in Resources */,
+				EB04CA3629DAFE4C0079C92A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3627BEF4D114B35ED94E39FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myXylophone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F387078BEFD5A9F5CC99B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myXylophone/Pods-myXylophone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myXylophone/Pods-myXylophone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myXylophone/Pods-myXylophone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB04CA2729DAFE4C0079C92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB04CA3329DAFE4C0079C92A /* ViewController.swift in Sources */,
+				EB04CA2F29DAFE4C0079C92A /* AppDelegate.swift in Sources */,
+				EB04CA3129DAFE4C0079C92A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB04CA3429DAFE4C0079C92A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04CA3529DAFE4C0079C92A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB04CA3929DAFE4D0079C92A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB04CA3A29DAFE4D0079C92A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB04CA3D29DAFE4D0079C92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB04CA3E29DAFE4D0079C92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB04CA4029DAFE4D0079C92A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8776663C227F568E9990E2C /* Pods-myXylophone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myXylophone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.myXylophone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB04CA4129DAFE4D0079C92A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019DD95ED362FB25CDB37FCE /* Pods-myXylophone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myXylophone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myself.myXylophone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB04CA2629DAFE4C0079C92A /* Build configuration list for PBXProject "myXylophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04CA3D29DAFE4D0079C92A /* Debug */,
+				EB04CA3E29DAFE4D0079C92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB04CA3F29DAFE4D0079C92A /* Build configuration list for PBXNativeTarget "myXylophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB04CA4029DAFE4D0079C92A /* Debug */,
+				EB04CA4129DAFE4D0079C92A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB04CA2329DAFE4C0079C92A /* Project object */;
+}
